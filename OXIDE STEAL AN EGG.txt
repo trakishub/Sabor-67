@@ -1,11 +1,11 @@
 --[[
-  Oxide HUB | Ein Ei stehlen (Steal an Egg) — Standalone Combined
+  Vortex HUB | Ein Ei stehlen (Steal an Egg) — Standalone Combined
   Library + Script tek dosyada. Executor'da loadstring / execute ile çalıştır.
   PlaceId: 107778070777162 (Steal an Egg)
 ]]
 
 -- ==============================================================================
--- UI LIBRARY (OxideUiLibary2)
+-- UI LIBRARY (VortexUiLibary2)
 -- ==============================================================================
 local Library = (function()
 local TweenService     = game:GetService("TweenService")
@@ -19,7 +19,7 @@ local TextService      = game:GetService("TextService")
 local HttpService      = game:GetService("HttpService")
 local Workspace        = game:GetService("Workspace")
 
-local DEFAULT_LOGO = "rbxassetid://114345069590059"
+local DEFAULT_LOGO = "rbxassetid://135564032729913"
 local TWEEN = TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
 local NOTIFICATION_TWEEN = TweenInfo.new(0.18, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
 local PROFILE_TWEEN = TweenInfo.new(0.32, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
