@@ -4348,7 +4348,7 @@ local function track(conn) table.insert(HUB.conns, conn); return conn end
 local function trackDrawing(d) if d then table.insert(HUB.drawings, d) end; return d end
 
 local Window = Library:CreateWindow({
-    Name = "Oxide HUB | Ein Ei stehlen",
+    Name = "Vortex Hub | steal an egg",
     LoadingAnimation = true,
     LoadingText = "Oxide",
     LoadingDuration = 2.0,
